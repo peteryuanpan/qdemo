@@ -16,8 +16,8 @@ pri = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIBF+4eMttxHZafdx62GFYFBTkSP8bX1yL
 body = {
 	"name": "qoa.peterpy.cn",
 	"common_name": "qoa.peterpy.cn",
-	"pri": pri,
-	"ca": ca
+	"ca": ca,
+	"pri": pri
 }
 
 ret, info = http._post_with_auth(url, body, auth)
