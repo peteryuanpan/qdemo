@@ -15,7 +15,7 @@ $data = array(
         'scenes' => array(
             "pulp","terror","politician"
         )
-	)
+    )
 );
  
 $url = 'http://ai.qiniuapi.com/v3/image/censor';
