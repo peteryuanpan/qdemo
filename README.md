@@ -1,3 +1,3 @@
 # qdemo
 
-七牛接口之Java、Golang、Python、Php、C的实现
+七牛接口之Java、Golang、C、Python、Php的实现
