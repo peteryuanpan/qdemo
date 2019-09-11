@@ -24,6 +24,6 @@ PANDORA：[智能日志管理平台](https://developer.qiniu.com/insight)
 
 |名称|产品|接口|功能|实现|
 |---|---|---|---|---|
-|直传文件|KODO|http(s)://upload.qiniup.com/||[学而时习之]()|
+|直传文件|KODO|http(s)://upload.qiniup.com/||[链接]()|
 
 
