@@ -2,7 +2,7 @@
 ### Ufop-Java-Demo部署步骤
 
 ```
-提前准备：
+提前准备
 1.安装 docker
 MACOS：参考 https://yeasy.gitbooks.io/docker_practice/install/mac.html
 （注意：MACOS下可能在执行「brew cask install docker」后要在 /Applications 下打开 docker 才能使用）
@@ -17,7 +17,6 @@ LINUX：https://runnable.com/docker/install-docker-on-linux
 3. docker build -t "ufop-java-demo:v1" .
 4. docker run -p 9100:9100 ufop-java-demo:v1
 5. 测试：http://localhost:9100/handler，结果：HelloWorld!! ufop-java-demo!
-
 6. qdoractl push ufop-java-demo:v1
 7. 到 https://portal.qiniu.com/dora/ufopv2/new 新建ufop
 8. 填写版本号；选择镜像；选择资源配置；调整实例数；创建新版本
