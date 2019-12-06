@@ -38,6 +38,8 @@ $zone = new Zone(
         );
 $config = new Config($zone);
 
+$config->useCdnDomains = true;
+
 // 初始化 UploadManager 对象并进行文件的上传。
 $uploadMgr = new UploadManager($config);
 
