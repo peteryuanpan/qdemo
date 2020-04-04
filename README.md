@@ -19,11 +19,3 @@ QVM：[云主机](https://developer.qiniu.com/qvm)
 SMS：[云短信](https://developer.qiniu.com/sms)
 
 PANDORA：[智能日志管理平台](https://developer.qiniu.com/insight)
-
-### API list
-
-|名称|产品|接口|功能|实现|
-|---|---|---|---|---|
-|直传文件|KODO|http(s)://upload.qiniup.com/||[链接]()|
-
-
