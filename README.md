@@ -6,7 +6,7 @@
 
 KODO：[对象存储](https://developer.qiniu.com/kodo)
 
-FUSION：[融合CDN](https://developer.qiniu.com/fusion)
+CDN：[融合CDN](https://developer.qiniu.com/fusion)
 
 DORA：[智能多媒体服务](https://developer.qiniu.com/dora)
 
