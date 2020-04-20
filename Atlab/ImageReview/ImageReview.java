@@ -11,11 +11,13 @@ public class ImageReview {
     static final String secretKey = "<sk>";
     static final String url = "http://ai.qiniuapi.com/v3/image/censor";
     
+    static Client client = new Client();
+    static Auth auth = Auth.create(accessKey, secretKey);
+    
     public static void main(String[] args) {
         StringMap headers = new StringMap();
         headers.put("Authorization", qiniuToken());
         try {
-            Client client = new Client();
             Response resp = client.post(url, json().getBytes(), headers, Client.JsonMime);
             System.out.println(resp.toString());
             System.out.println(resp.bodyString());
@@ -25,7 +27,6 @@ public class ImageReview {
     }
      
     static String qiniuToken() {
-        Auth auth = Auth.create(accessKey, secretKey);
         String authorization = (String) auth.authorizationV2(url, "POST", json().getBytes(), Client.JsonMime).get("Authorization");
         System.out.println(authorization);
         return authorization;
