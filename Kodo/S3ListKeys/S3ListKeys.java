@@ -29,7 +29,7 @@ public class ListKeys {
      */
     static String accessKeyId = "<accessKeyId>";
     static String accessKeySecret = "<accessKeySecret>";
-    static String bucketName = "<bucketName>";
+    static String bucketName = "<s3bucketName>";
     static String s3endpoint = "<s3endpoint>";
     static AmazonS3 AmazonS3Client = new AmazonS3Client(
             new BasicAWSCredentials(accessKeyId, accessKeySecret),
