@@ -21,8 +21,11 @@ public class ListKeys {
 
     /**
      * accessKeyId、accessKeySecret 从 https://portal.qiniu.com/user/key 中可获取
-     * bucketName 从 https://portal.qiniu.com/kodo/bucket 可找到具体空间名
-     * s3endpoint 从 上面链接点具体具体空间名看查看到配置，https://portal.qiniu.com/kodo/bucket/overview?bucketName=<bucketName>
+     * bucketName、s3endpoint 从 https://portal.qiniu.com/kodo/bucket 可找到具体空间名，点具体具体空间名查看配置
+     * 比如 空间域名：<s3bucketname>.s3-cn-east-1.qiniucs.com
+     * bucketName = <s3bucketname>
+     * s3endpoint = s3-cn-east-1.qiniucs.com
+     * 注意，bucketName不一定是空间名，而是s3endpoint的中的<s3bucketname>
      */
     static String accessKeyId = "<accessKeyId>";
     static String accessKeySecret = "<accessKeySecret>";
