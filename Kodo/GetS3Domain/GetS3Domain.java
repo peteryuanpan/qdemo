@@ -32,3 +32,10 @@ public class GetS3Domain {
     }
 
 }
+
+/**
+> Task :GetS3Domain.main()
+QBox bjtWBQXrcxgo7HWwlC_bgHg81j352_GhgBGZPeOW:MEpWFCzfTUAy8IgDHVwpRVHbsHc=
+{ResponseInfo:com.qiniu.http.Response@7cd62f43,status:200, reqId:ajAAAK9suWNTQxkW, xlog:BUCKET:14;BUCKET:15, xvia:, adress:uc.qbox.me/218.98.28.19:80, duration:0.196000 s, error:null}
+{"domain":"panyuan.s3-cn-east-1.qiniucs.com","tbl":"panyuan","owner":1380432151,"antileech":{"no_refer":false,"anti_leech_mode":0,"anti_leech_used":false,"source_enabled":false},"domaintype":1,"s3endpoint":"s3-cn-east-1.qiniucs.com"}
+*/
