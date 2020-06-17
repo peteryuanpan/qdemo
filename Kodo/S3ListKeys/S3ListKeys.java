@@ -1,7 +1,7 @@
 package example.test;
 
 /**
- * 参考：https://github.com/awsdocs/aws-doc-sdk-examples/blob/master/java/example_code/s3/src/main/java/aws/example/s3/ListBuckets.java
+ * 参考：https://github.com/awsdocs/aws-doc-sdk-examples/blob/master/java/example_code/s3/src/main/java/aws/example/s3/ListKeys.java
  */
 
 import com.amazonaws.AmazonServiceException;
