@@ -36,14 +36,11 @@ public class UploadDemo {
     //Zone z = Zone.autoZone();
 
     Zone z = new Zone.Builder(Zone.zone0())
-            .upHttp("http://up-qos.iot-st-ec.qiniu-solutions.com")
-            .upHttps("http://up-qos.iot-st-ec.qiniu-solutions.com")
-            .upBackupHttp("http://up-qos.iot-st-ec.qiniu-solutions.com")
-            .upBackupHttps("http://up-qos.iot-st-ec.qiniu-solutions.com")
-            .rsHttp("http://rs-qos.iot-st-ec.qiniu-solutions.com")
-            .rsfHttp("http://rsf-qos.iot-st-ec.qiniu-solutions.com")
-            .apiHttp("http://api-qos.iot-st-ec.qiniu-solutions.com")
-            .iovipHttp("http://io-qos.iot-st-ec.qiniu-solutions.com").build();
+				.upHttp("http://upload.qiniu.com")
+				.upBackupHttp("http://upload.qiniu.com")
+				.upHttps("https://upload.qiniup.com")
+				.upBackupHttps("https://upload.qiniup.com")
+				.build();
 
     Configuration c = new Configuration(z);
 
