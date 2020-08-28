@@ -1,5 +1,3 @@
-package peter;
-
 import com.qiniu.http.Client;
 import com.qiniu.http.Response;
 import com.qiniu.util.Auth;
